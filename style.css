@@ -1,0 +1,636 @@
+*{
+.mainContainer span{
+    position: absolute;
+    margin-bottom: -200px;
+    text-align: center;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+    /* margin-bottom: 100px; */
+    
+    
+}
+.mainContainer{
+    position: relative;
+text-align: center;
+font-size: 30px;
+background-image: url(images/headerBcg.jpg);
+height: 1000px;
+width: 100%;
+border-top: 70px solid rgb(106, 204, 106);
+color: aliceblue;
+}
+.mainContainer h1{
+ /* font-weight: 600; */
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 80px;
+}
+.mainContainer nav{
+    display: flex;
+   margin-top: 2cm;
+   margin-bottom: 4cm;
+   margin-left: 100px;
+ 
+}
+.mainContainer fa-solid{
+    margin-top: 100px;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.mainContainer ul{
+    gap: 1cm;
+    font-size: 35px;
+    text-decoration: none !important;
+    list-style:none ;
+    display: flex;
+    margin-left: 3cm;
+    margin-right:3cm ;
+    margin-bottom: 1cm;
+   
+}
+.mainContainer i{
+    margin-top: 1cm;
+}
+
+.mainContainer button{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: wheat;
+    background-color:beige;
+    margin-top: 2cm;
+    opacity: 0.5;
+    font-size: 20px;
+}
+.timeless-artistry{
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+    
+}
+.modern-sophistication{
+    float: right;
+    padding-left: 2cm;
+    
+    font-size: 25px;
+    text-align: left;
+
+    margin-right: 0px;
+}
+.modern-sophistication span{
+    font-size: 15px;
+    color: green;
+}
+.modern-sophistication h3{
+    font-size: 40px;
+    font-weight: 200;
+}
+.modern-sophistication p{
+    color: gray;
+}
+.modern-sophistication button{
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+   border-radius: 40px;
+   font-size: 20px;
+   border-width: 1px;
+
+}
+#knowmore-button{
+    background-color: rgb(106, 189, 106);
+    color: aliceblue;
+
+}
+
+#leading-company{
+    text-align: center;
+    /* margin-top: 3cm; */
+    font-size: 50px;
+    font-weight: 100;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 2cm;
+    /* margin-bottom: 2cm; */
+}
+.feature-section{
+    display: flex;
+    margin-top: 3cm;
+    padding-left: 2cm;
+    padding-top: 3cm;
+    text-align: center;
+    font-size: 23px;
+    background-color: rgb(225, 243, 237);
+   margin-bottom: 6cm;
+    gap: 4cm;
+}
+.feature-section i{
+    font-size: 50px;
+    padding-right: 0.5cm;
+    color: rgb(46, 45, 45);
+}
+.screen-printing-techniques{
+    text-align: center;
+
+}
+.screen-printing-techniques img{
+    border-radius: 30px;
+    margin-right: 20px;
+}.rasi-techniques-overview{
+    text-align: center;
+    /* font-size: 30px; */
+}
+.rasi-techniques-overview h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.rasi-techniques-overview p{
+    font-size: 20px;
+    color: rgb(78, 76, 76);
+    padding-bottom: 1cm;
+}.printing-comparison{
+    text-decoration-line: none;
+    line-height: 1cm;
+    display: flex;
+    font-size: 30px;
+    text-align: left;
+    /* margin-left: 50px; */
+    padding-left: 1cm;
+   color:  rgb(56, 51, 51);
+   justify-content: space-around;
+   /* margin-left: 90px; */
+}
+.printing-comparison i{
+    margin-left: 20px;
+    color: rgb(54, 53, 53);
+    width: 20px;
+   
+}
+.printing-comparison p{
+    font-size: 20px;
+}
+.four-color-printing{
+    margin-right: 100px;
+}
+.traditional-printing{
+    margin-right: 50px;
+}
+.testimonial-section{
+    display: flex;
+    text-align: right;
+    margin-left: 200px;
+    gap: 300px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.testimonial-section-overview{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 2cm;
+}
+.testimonial-section-overview h1{
+    font-size: 50px;
+}
+.testimonial-section p{
+    color: gray;
+}
+.customer-review{
+    display: flex;
+    margin-top: 3cm;
+}
+.customer-review-feedback{
+    font-size: 25px;
+    margin-left: 100px;
+    line-height: 1cm;
+}
+.customer-review img{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.customer-review-feedback p{
+    color: rgb(74, 103, 110);
+}
+.partnering-companies{
+    display: flex;
+    gap: 2cm;
+    margin-left: 90px;
+    margin-top: 3cm;
+}
+.rasi-showcase-section{
+    margin-top: 7cm;
+    text-align: center;
+    
+}
+.rasi-showcase-section img{
+    gap: 2cm;
+    justify-content: space-around;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding-bottom: 1cm;
+}
+.rasi-showcase-section h1{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(41, 39, 39);
+}
+.rasi-showcase-section p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.rectangle-contact-section{
+    z-index: 1;
+    position: absolute;
+  background-color: rgb(245, 245, 245);
+    width: 400px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+    padding: 2cm 1cm 2cm 3cm;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.rectangle h2{
+    font-size: 40px;
+
+}
+.rectangle h3{
+    color: rgb(46, 40, 40);
+}
+.rectangle p{
+    color: rgb(88, 85, 85);
+}
+#rasi-location-map{
+    position: relative;
+    width: 100%;
+    margin-left: 80px;
+    border-radius: 100px;
+}
+.rectangle-about-Rasi-section{
+    position: relative;
+    z-index: -1;
+    background-color: rgb(20, 63, 63);
+    color: aliceblue;
+    width: 100%;
+    height: 400px;
+    margin-top: 2cm;
+    padding-top: 3cm;
+    padding-bottom: 5cm;
+    align-items: center;
+    justify-content: center;
+    line-height: 1cm;
+    gap: 80px;
+}
+.aboutUs{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    line-height: 1cm;
+    gap: 100px;
+}
+.rectangle-about-Rasi-section ul{
+    list-style: none;
+}
+.rectangle-about-Rasi-section img{
+    border-radius: 20px;
+}
+.rectangle-about-Rasi-section i{
+    padding-right: 0.5cm;
+    padding-bottom: 1cm;
+}
+.rectangle-about-Rasi-section span{
+    padding-right: 1cm;
+    padding-left: 0.5cm;
+}
+footer{
+    margin-top: 100px;
+    border-top: 2px solid gray;
+    padding-top: 1cm;
+   text-align: center;
+
+}
+}
+
+
+@media screen and (min-width: 320px) and (max-width:857px){
+    *{
+        overflow-wrap: break-word;
+        /* overflow-x: hidden; */
+    }
+    .mainContainer span{
+        position: absolute;
+        margin-bottom: -200px;
+        text-align: center;
+        box-sizing: border-box;
+        transform: translateX(-50%);
+        /* margin-bottom: 100px; */
+        
+        
+    }
+    .mainContainer{
+        position: relative;
+    text-align: left;
+    font-size: 30px;
+    background-image: url(images/headerBcg.jpg);
+    /* height: 1000px; */
+    width: 100%;
+    border-top: 70px solid rgb(106, 204, 106);
+    color: aliceblue;
+    }
+    .mainContainer h1{
+     /* font-weight: 600; */
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 40px;
+    }
+    .mainContainer nav{
+        display: flex;
+       margin-top: 2cm;
+       margin-bottom: 4cm;
+       /* margin-left: 100px; */
+     
+    }
+    .mainContainer fa-solid{
+        margin-top: 100px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .mainContainer ul{
+        gap: 1cm;
+        font-size: 35px;
+        text-decoration: none !important;
+        list-style:none ;
+        display: flex;
+        margin-left: 3cm;
+        margin-right:3cm ;
+        margin-bottom: 1cm;
+       
+    }
+    .mainContainer i{
+        margin-top: 1cm;
+    }
+    
+    .mainContainer button{
+        width: 400px;
+        height: 50px;
+        border-radius: 10px;
+        border-color: wheat;
+        background-color:beige;
+        margin-top: 2cm;
+        opacity: 0.5;
+        font-size: 20px;
+    }
+    .timeless-artistry{
+        display: flex;
+        text-align: center;
+        margin-left: 50px;
+        
+    }
+    .modern-sophistication{
+        float: right;
+        padding-left: 2cm;
+        
+        font-size: 25px;
+        text-align: left;
+    
+        margin-right: 0px;
+    }
+    .modern-sophistication span{
+        font-size: 15px;
+        color: green;
+    }
+    .modern-sophistication h3{
+        font-size: 40px;
+        font-weight: 200;
+    }
+    .modern-sophistication p{
+        color: gray;
+    }
+    .modern-sophistication button{
+        padding: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+       border-radius: 40px;
+       font-size: 20px;
+       border-width: 1px;
+    
+    }
+    #knowmore-button{
+        background-color: rgb(106, 189, 106);
+        color: aliceblue;
+    
+    }
+    
+    #leading-company{
+        text-align: center;
+        /* margin-top: 3cm; */
+        font-size: 50px;
+        font-weight: 100;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        padding: 2cm;
+        /* margin-bottom: 2cm; */
+    }
+    .feature-section{
+        display: flex;
+        margin-top: 3cm;
+        padding-left: 2cm;
+        padding-top: 3cm;
+        text-align: center;
+        font-size: 23px;
+        background-color: rgb(225, 243, 237);
+       margin-bottom: 6cm;
+        gap: 4cm;
+    }
+    .feature-section i{
+        font-size: 50px;
+        padding-right: 0.5cm;
+        color: rgb(46, 45, 45);
+    }
+    .screen-printing-techniques{
+        text-align: center;
+    
+    }
+    .screen-printing-techniques img{
+        border-radius: 30px;
+        margin-right: 20px;
+    }.rasi-techniques-overview{
+        text-align: center;
+        /* font-size: 30px; */
+    }
+    .rasi-techniques-overview h1{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .rasi-techniques-overview p{
+        font-size: 20px;
+        color: rgb(78, 76, 76);
+        padding-bottom: 1cm;
+    }.printing-comparison{
+        text-decoration-line: none;
+        line-height: 1cm;
+        display: flex;
+        font-size: 30px;
+        text-align: left;
+        /* margin-left: 50px; */
+        padding-left: 1cm;
+       color:  rgb(56, 51, 51);
+       justify-content: space-around;
+       /* margin-left: 90px; */
+    }
+    .printing-comparison i{
+        margin-left: 20px;
+        color: rgb(54, 53, 53);
+        width: 20px;
+       
+    }
+    .printing-comparison p{
+        font-size: 20px;
+    }
+    .four-color-printing{
+        margin-right: 100px;
+    }
+    .traditional-printing{
+        margin-right: 50px;
+    }
+    .testimonial-section{
+        display: flex;
+        text-align: right;
+        margin-left: 200px;
+        gap: 300px;
+        font-size: 20px;
+        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    }
+    .testimonial-section-overview{
+        text-align: center;
+        font-size: 25px;
+        padding-top: 2cm;
+    }
+    .testimonial-section-overview h1{
+        font-size: 50px;
+    }
+    .testimonial-section p{
+        color: gray;
+    }
+    .customer-review{
+        display: flex;
+        margin-top: 3cm;
+    }
+    .customer-review-feedback{
+        font-size: 25px;
+        margin-left: 100px;
+        line-height: 1cm;
+    }
+    .customer-review img{
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .customer-review-feedback p{
+        color: rgb(74, 103, 110);
+    }
+    .partnering-companies{
+        display: flex;
+        gap: 2cm;
+        margin-left: 90px;
+        margin-top: 3cm;
+    }
+    .rasi-showcase-section{
+        margin-top: 7cm;
+        text-align: center;
+        
+    }
+    .rasi-showcase-section img{
+        gap: 2cm;
+        justify-content: space-around;
+        margin-right: 20px;
+        border-radius: 50px;
+        padding-bottom: 1cm;
+    }
+    .rasi-showcase-section h1{
+        font-size: 60px;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(41, 39, 39);
+    }
+    .rasi-showcase-section p{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .rectangle-contact-section{
+        z-index: 1;
+        position: absolute;
+      background-color: rgb(245, 245, 245);
+        width: 400px;
+        font-size: 20px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-radius: 20px;
+        padding: 2cm 1cm 2cm 3cm;
+        margin-top: 200px;
+        margin-left: 300px;
+    }
+    .rectangle h2{
+        font-size: 40px;
+    
+    }
+    .rectangle h3{
+        color: rgb(46, 40, 40);
+    }
+    .rectangle p{
+        color: rgb(88, 85, 85);
+    }
+    #rasi-location-map{
+        position: relative;
+        width: 100%;
+        margin-left: 80px;
+        border-radius: 100px;
+    }
+    .rectangle-about-Rasi-section{
+        position: relative;
+        z-index: -1;
+        background-color: rgb(20, 63, 63);
+        color: aliceblue;
+        width: 100%;
+        height: 400px;
+        margin-top: 2cm;
+        padding-top: 3cm;
+        padding-bottom: 5cm;
+        align-items: center;
+        justify-content: center;
+        line-height: 1cm;
+        gap: 80px;
+    }
+    .aboutUs{
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        line-height: 1cm;
+        gap: 100px;
+    }
+    .rectangle-about-Rasi-section ul{
+        list-style: none;
+    }
+    .rectangle-about-Rasi-section img{
+        border-radius: 20px;
+    }
+    .rectangle-about-Rasi-section i{
+        padding-right: 0.5cm;
+        padding-bottom: 1cm;
+    }
+    .rectangle-about-Rasi-section span{
+        padding-right: 1cm;
+        padding-left: 0.5cm;
+    }
+    footer{
+        margin-top: 100px;
+        border-top: 2px solid gray;
+        padding-top: 1cm;
+       text-align: center;
+    
+    } 
+}
