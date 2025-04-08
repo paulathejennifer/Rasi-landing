@@ -2,11 +2,6 @@
     overflow-x: hidden;
 
 }
-#rasi-prints-overview{
-    margin-left: 500px;
-    
-    font-size: 30px;
-}
 .mainContainer span{
     position: absolute;
     margin-bottom: -200px;
@@ -23,7 +18,6 @@ font-size: 30px;
 background-image: url(images/headerBcg.jpg);
 height: 1000px;
 width: 100%;
-margin-top: 2cm;
 color: aliceblue;
 }
 .mainContainer h1{
