@@ -18,6 +18,7 @@ font-size: 30px;
 background-image: url(images/headerBcg.jpg);
 height: 1000px;
 width: 100%;
+border-top: 70px solid rgb(106, 204, 106);
 color: aliceblue;
 }
 .mainContainer h1{
@@ -27,8 +28,8 @@ color: aliceblue;
 .mainContainer nav{
     display: flex;
    margin-top: 2cm;
-   margin-bottom: 4cm;
-   margin-left: 100px;
+   /* margin-bottom: 4cm; */
+   /* margin-left: 100px; */
  
 }
 .mainContainer fa-solid{
@@ -66,18 +67,19 @@ a{
 }
 .timeless-artistry{
     display: flex;
-    text-align: center;
-    margin-left: 50px;
+    text-align: left;
+    /* margin-left: 50px; */
     
 }
 .modern-sophistication{
     float: right;
     padding-left: 2cm;
     
-    font-size: 25px;
-    text-align: left;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 2cm;
 
-    margin-right: 0px;
+    /* margin-right: 0px; */
 }
 .modern-sophistication span{
     font-size: 15px;
@@ -88,7 +90,7 @@ a{
     font-weight: 200;
 }
 .modern-sophistication p{
-    color: gray;
+    color: rgb(46, 44, 44);
 }
 .modern-sophistication button{
     padding: 10px;
@@ -249,9 +251,9 @@ a{
     font-size: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 20px;
-    padding: 2cm 1cm 2cm 3cm;
-    margin-top: 200px;
-    margin-left: 300px;
+    /* padding: 2cm 1cm 2cm 3cm; */
+    margin-bottom: 150px;
+    margin-right: 300px;
 }
 .rectangle h2{
     font-size: 40px;
@@ -349,12 +351,15 @@ footer{
      font-size: 30px;
     }
     .mainContainer h2{
-        margin-top: 1.5cm;
-        margin-left: 10px;
+        /* margin-bottom: 2cm; */
+        margin-left: 130px;
         font-size: 20px;
     }
     .mainContainer nav{
         display: flex;
+        flex-direction: column;
+        
+      
      
     }
     .mainContainer p{
@@ -371,22 +376,24 @@ footer{
     }
     .mainContainer ul{
         gap: 0.1cm;
-        font-size: 13px;
-        font-weight: 300;
-        font-weight: bold;
+        font-size: 15px;
+        /* font-weight: 300;
+        font-weight: bold; */
         text-decoration: none !important;
         list-style:none ;
         display: flex;
-        margin-right: 0.5cm;
-        margin-top: 2cm;
+        flex-direction: column;
+        /* margin-bottom: 2cm; */
         
 
        
     }
     .mainContainer i{
-        margin-top: 2cm;
-        margin-right: 5cm;
-        padding-right: 1cm;
+        /* margin-bottom: 00px; */
+        text-align: center;
+        font-size: 20px;
+        /* margin-right: 5cm; */
+        /* padding-right: 1cm; */
         
     }
     
@@ -586,11 +593,13 @@ footer{
     .rectangle-contact-section{
         z-index: 1;
         position: absolute;
-      background-color: rgb(245, 245, 245);
+        background-color: rgb(245, 245, 245);
         width: 80px;
+        height: fit-content;
         font-size: 8px;
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        border-radius: 5px;
+       
+        background-color: aqua;
     }
     .rectangle h2{
         font-size: 40px;
@@ -605,8 +614,11 @@ footer{
     #rasi-location-map{
         position: relative;
        max-width:400px;
-       max-height: 600px;
+       max-height: 800px;
         border-radius: 10px;
+        /* padding: 0px; */
+        margin-right: 200px;
+
     }
     .rectangle-about-Rasi-section{
         position: relative;
@@ -614,14 +626,16 @@ footer{
         background-color: rgb(20, 63, 63);
         color: aliceblue;
         margin-top: 2cm;
+        width: 400px;
+        height: fit-content;
        
-        padding-top: 3cm;
-        padding-bottom: 5cm;
-        align-items: center;
+        /* padding-bottom: 5cm; */
+        align-items: left;
         justify-content: center;
         line-height: 1cm;
     }
     .aboutUs{
+        display: flex;
         flex-direction: column;
         text-align: left;
         align-items: center;
